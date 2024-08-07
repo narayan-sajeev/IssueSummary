@@ -35,7 +35,7 @@ def get_df(fname):
 
 def get_known_cols():
     # checking column classifier
-    known_cols_fn = '/Users/narayansajeev/Desktop/MIT/known_columns.json'
+    known_cols_fn = '/Users/narayansajeev/Desktop/MIT/IssueSummary/known_columns.json'
     with open(known_cols_fn) as f:
         return json.load(f)
 
